@@ -1,5 +1,14 @@
-require('./prototypes/Array')
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-const client = new (require('./structures/Client'))({ disableMentions: 'none' });
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 
-client.run('754155143204962404', '.');
+client.on('message', msg => {
+  if (msg.content === '.ping') {
+    msg.reply('Pong!');
+  }
+});
+
+client.login('NzgxMjkzNzgwODEyODI0NjA4.X77iiQ._9IW1nR89kaqu0p99Wqzk2_CZDU');
