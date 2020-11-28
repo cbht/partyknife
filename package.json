@@ -1,0 +1,25 @@
+{
+  "name": "partyknife",
+  "version": "1.0.0",
+  "description": "The partyknife discord bot.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "pretty-ms": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ".ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbht/partyknife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbht/partyknife/issues"
+  },
+  "homepage": "https://github.com/cbht/partyknife#readme"
+}
